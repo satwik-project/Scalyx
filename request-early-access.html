@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Scalyx</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-head">
+        <div class="container">
+            <div class="row hd-row">
+                <div class="col-6">
+                    <div class="logo">
+                        <a href="#" class="hd-logo-link"><img src="images/header-logo.png" alt="Scalyx Logo"></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="step-form-sec">
+        <div class="container">
+            <div class="step-form-wrap">
+                <form id="multiStepForm">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <label><span>1.</span> What is your full name?</label>
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Full Name">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <label><span>2.</span> What is your business email address?</label>
+                            <div class="input-wrap">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <label><span>3.</span> What is your business name?</label>
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Business Name">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <label><span>4.</span> Which industry does your business belong to?</label>
+                            <div class="input-wrap">
+                                <select name="speed" id="speed">
+                                    <option>Choose industry</option>
+                                    <option>Technology</option>
+                                    <option>Healthcare</option>
+                                    <option>Finance</option>
+                                    <option>Education</option>
+                                    <option>Retail</option>
+                                    <option>Manufacturing</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-col form-col-date">
+                            <label><span>5.</span> What's your expected start date for implementing Scalyx?</label>
+                            <div class="input-wrap">
+                                <input type="text" placeholder="Choose date" id="datepicker">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <label><span>6.</span> What are your primary goals for using Scalyx?</label>
+                            <div class="check-wrap-cols">
+                                <div class="form-group">
+                                    <input type="checkbox" id="one">
+                                    <label for="one">Improve customer relationships and retention</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="two">
+                                    <label for="two">Streamline inventory management across stores</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="three">
+                                    <label for="three">Enhance point-of-sale transactions and payment processing</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="four">
+                                    <label for="four">Gain actionable insights through reporting and dashboards</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="five">
+                                    <label for="five">Automate customer support with an AI chatbot</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="six">
+                                    <label for="six">Optimize team coordination and task assignments</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="seven">
+                                    <label for="seven">Scale operations for multiple stores or locations</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="eight">
+                                    <label for="eight">Increase sales through AI-driven recommendations</label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="nine">
+                                    <label for="nine">Other</label>
+                                </div>
+                                <div class="input-wrap">
+                                    <input type="text" placeholder="Describe your goal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-col-submit">
+                            <button type="submit" class="cmn-btn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img src="images/form-overlay.png" class="form-overlay" alt="">
+        <img src="images/form-overlay-top.png" class="form-overlay-top" alt="">
+        <img src="images/form-overlay-bottom.png" class="form-overlay-bottom-rgt" alt="">
+    </section>
+
+    <!-- Jquery-->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.ui.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

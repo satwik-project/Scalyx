@@ -94,11 +94,20 @@ $slider.slick({
     $('.accordion-button').on('click', function () {
       // Remove 'active' class from all .accordion-item elements
       $('.accordion-item').removeClass('active');
-
-      // Add 'active' class to the clicked button's closest .accordion-item
       $(this).closest('.accordion-item').addClass('active');
     });
   });
+
+  $( "#datepicker" ).datepicker();
+
+// check box
+
+$('.form-group label').on('click', function() {
+        $(this).closest('.form-group').toggleClass('active');
+    });
+
+    // select option
+    $( "#speed" ).selectmenu();
 
     })
     
